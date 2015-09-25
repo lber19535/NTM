@@ -1,0 +1,18 @@
+// FFMPEGInterop.idl : IDL source for FFMPEGInterop
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (FFMPEGInterop.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(FEDEEB1B-D846-4BAB-BD33-2023A1C161EE),
+	version(1.0),
+]
+library FFMPEGInteropLib
+{
+	importlib("stdole2.tlb");
+};
+
